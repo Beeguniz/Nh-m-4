@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="congthuc">
+    <file>topic7ls14d.jpg</file>
+    <file>topic7ls14c.jpg</file>
+    <file>topic7ls14b.jpg</file>
+    <file>topic7ls14a.jpg</file>
+    <file>topic7ls13c.jpg</file>
+    <file>topic7ls13b.jpg</file>
+    <file>topic7ls13a.jpg</file>
+    <file>topic6ls12a.jpg</file>
+    <file>topic6ls12b.jpg</file>
+    <file>topic6ls12c.jpg</file>
+    <file>topic6ls12d.jpg</file>
+    <file>topic6a.jpg</file>
+    <file>topic6b.jpg</file>
+    <file>topic6c.jpg</file>
+    <file>topic6d.jpg</file>
+  </qresource>
+</RCC>

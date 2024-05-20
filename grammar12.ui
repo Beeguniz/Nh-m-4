@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2362</width>
+    <height>1043</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 248, 255);</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="w1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1011</width>
+      <height>1091</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(:/travel/c2833489e13297ed6c472b8241bae81f.jpg)
+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="w2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(221, 162, 110, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+    <widget class="QPushButton" name="ex12">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>660</y>
+       <width>321</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 5px solid black;
+    background-color: rgb(255, 85, 127);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+QPushButton:pressed {
+    box-shadow: none;
+    background-color:rgbrgb(255, 85, 0); 
+}</string>
+     </property>
+     <property name="text">
+      <string>EXERCISES</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gra12">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>340</y>
+       <width>321</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 5px solid black;
+    background-color: rgb(255, 85, 127);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+QPushButton:pressed {
+    box-shadow: none;
+    background-color:rgbrgb(255, 85, 0); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>GRAMMAR</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>0</y>
+       <width>201</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/logo/62264bc2694c9812c15d.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_home12">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>920</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: 5px solid black;
+    background-color: rgb(255, 85, 127);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+QPushButton:pressed {
+    box-shadow: none;
+    background-color:rgbrgb(255, 85, 0); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>w2</zorder>
+   <zorder>w1</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="anhnen.qrc"/>
+  <include location="hobby.qrc"/>
+  <include location="logo.qrc"/>
+  <include location="travel.qrc"/>
+ </resources>
+ <connections/>
+</ui>

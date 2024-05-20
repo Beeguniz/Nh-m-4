@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1921</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget{
+
+
+	background-color: qlineargradient(spread:pad, x1:0.790136, y1:0.711, x2:1, y2:1, stop:0.153409 rgba(116, 183, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+    </property>
+    <widget class="QLabel" name="label_1">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>181</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(88, 191, 255);
+font: 25pt &quot;MV Boli&quot;;
+border-radius:10px;
+border: 2px solid white;
+</string>
+     </property>
+     <property name="text">
+      <string>Topic 7</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>70</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+text-decoration: underline;
+font: 24pt &quot;MV Boli&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>まち</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>50</y>
+       <width>561</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;MV Boli&quot;;
+text-decoration: underline;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Machi / Town</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>240</y>
+       <width>711</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;MV Boli&quot;;
+color: rgb(0, 0, 0);
+border: 4px solid #ffffff;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Lesson 14: It's a famous temple</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>410</y>
+       <width>891</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>3</number>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_1">
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>891</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+border-image: url(:/congthuc/topic7ls14a.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>-4</x>
+         <y>-8</y>
+         <width>891</width>
+         <height>471</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/congthuc/topic7ls14b.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>-4</x>
+         <y>-8</y>
+         <width>891</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/congthuc/topic7ls14c.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_4">
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>891</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/congthuc/topic7ls14d.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="Button_1">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>440</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color: rgb(64, 195, 255);
+
+font: 18pt &quot;MV Boli&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Structure 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_2">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>550</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;MV Boli&quot;;
+color: rgb(64, 195, 255);</string>
+     </property>
+     <property name="text">
+      <string>Structure 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_3">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>660</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;MV Boli&quot;;
+color: rgb(64, 195, 255);</string>
+     </property>
+     <property name="text">
+      <string>Structure 3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_4">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>780</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(64, 195, 255);
+font: 18pt &quot;MV Boli&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Structure 4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back1">
+     <property name="geometry">
+      <rect>
+       <x>1690</x>
+       <y>830</y>
+       <width>75</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(64, 195, 255);
+
+font: 18pt &quot;MV Boli&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="topic6.qrc"/>
+ </resources>
+ <connections/>
+</ui>

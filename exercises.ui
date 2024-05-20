@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1931</width>
+    <height>1090</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1931</width>
+      <height>1091</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>961</width>
+       <height>1091</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(189, 182, 120, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <widget class="QLabel" name="q1">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>180</y>
+        <width>591</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>えいご　　　　　　　できます。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_1">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>210</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>が</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>を</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>450</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>430</y>
+        <width>661</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>イギリス               べんきょうします。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_2">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>460</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>で</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>に</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>720</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="check11_1">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>310</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="check11_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>570</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q2_2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>700</y>
+        <width>661</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>あの　みせ                食べましょう。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>730</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>で</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>に</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="check11_3">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>840</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>451</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px;
+border: 2px solid black;
+background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>Question 1. Choose the correct word:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_gr11">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>920</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>0</y>
+       <width>971</width>
+       <height>1111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(189, 182, 120, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: qlineargradient(spread:repeat, x1:1, y1:1, x2:0, y2:1, stop:0 rgba(189, 182, 120, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>100</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q1_2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>70</y>
+        <width>711</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Noto Sans JP','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック','sans-serif'; font-size:20px; color:#717171; background-color:#fffdf7;&quot;&gt;テーブルの うえ           バナナ&lt;/span&gt;&lt;span style=&quot; font-family:'Noto Sans JP','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック','sans-serif'; font-size:20px; font-weight:400; color:#717171; background-color:#fffdf7;&quot;/&gt;&lt;span style=&quot; font-family:'Noto Sans JP','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック','sans-serif'; font-size:20px; color:#717171; background-color:#fffdf7;&quot;&gt;あります。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-family:'Noto Sans JP'; font-size:18px; color:#717171;&quot;/&gt;&lt;span style=&quot; font-family:'Noto Sans JP'; font-size:18px; font-weight:400; color:#717171;&quot;/&gt;&lt;a name=&quot;ui-id-4-button&quot;/&gt;&lt;a href=&quot;https://a1.marugotoweb.jp/en/grammar_topic6_11.php#nogo&quot;&gt;&lt;span style=&quot; font-family:'Verdana','Arial','sans-serif'; font-size:20px; font-weight:400; color:#666666; background-color:#fffdf7; vertical-align:middle;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Noto Sans JP'; font-size:18px; font-weight:400; color:#717171;&quot;/&gt;&lt;a name=&quot;ui-id-4-button&quot;/&gt;&lt;a href=&quot;https://a1.marugotoweb.jp/en/grammar_topic6_11.php#nogo&quot;&gt;&lt;span style=&quot; font-family:'Verdana','Arial','sans-serif'; font-size:20px; font-weight:400; color:#666666; background-color:#fffdf7; vertical-align:middle;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>テーブルの　うえ            バナナ                   あります。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_4_1">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>90</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>で</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>に</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="ans11_4_2">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>90</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>が</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>を</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>430</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="check11_4">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>250</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q1_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>400</y>
+        <width>731</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>A:                   サッカーを　しますか。                 B: いいえ、                  しません。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+      <property name="margin">
+       <number>5</number>
+      </property>
+      <property name="indent">
+       <number>10</number>
+      </property>
+      <property name="openExternalLinks">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_5_1">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>430</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>よく</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ぜんぜん</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="check11_5">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>610</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_5_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>500</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>よく</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>あまり</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>740</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="q2_3">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>720</y>
+        <width>711</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>26</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(85, 170, 127);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>やすみの　ひに                かいものを　します。</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="ans11_6">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>730</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-top-left-radius: 20px;
+border-bottom-left-radius:20px;
+border: 2px solid black;
+padding: 15px;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>?</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ときどき</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>あまり</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="check11_6">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>860</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="nextp2_11">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>930</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+border-radius: 25px;
+border: 2px solid black;
+padding: 15px;
+background-color:rgb(255, 255, 255);
+color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color:rgb(170, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
